@@ -2,6 +2,9 @@ module.exports = {
   extends: ['plugin:prettier/recommended', 'plugin:react/recommended', 'airbnb', 'prettier', 'prettier/react'],
   parser: 'babel-eslint',
   plugins: ['react'],
+  globals: {
+    document: true,
+  },
   rules: {
     'global-require': 0,
     'no-console': 0,
