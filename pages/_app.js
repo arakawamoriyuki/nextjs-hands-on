@@ -27,7 +27,7 @@ class MyApp extends App {
           <Component {...pageProps} />
         </ThemeProvider>
       </>
-    )
+    );
   }
 }
 
